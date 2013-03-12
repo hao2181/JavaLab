@@ -13,6 +13,7 @@ public class TestBufferOS {
 			OutputStreamWriter ow = new OutputStreamWriter(out);
 			ow.write("fffffffffffffffffffffffffff");
 			System.out.println("ffffff"); 
+			
 /*			System.out.println(args[0]);
 			out.write(args[0].getBytes());
 			out.close();*/
