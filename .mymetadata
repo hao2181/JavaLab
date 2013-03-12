@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="JavaLab"
+  id="myeclipse.1316482544343"
+  context-root="/JavaLab"
+  j2ee-spec="6.0"
+  archive="JavaLab.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
