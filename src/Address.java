@@ -1,7 +1,7 @@
 import javax.xml.bind.annotation.XmlRootElement;
 
 
-//@XmlRootElement
+//@XmlRootElement Test
 public class Address {
 	private String province;
 	private String city;
