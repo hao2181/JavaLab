@@ -12,7 +12,7 @@ public class TestBufferOS {
 			BufferedOutputStream out = new BufferedOutputStream(new  FileOutputStream(file));
 			OutputStreamWriter ow = new OutputStreamWriter(out);
 			ow.write("fffffffffffffffffffffffffff");
-			System.out.println("ffff");
+			System.out.println("ffff"); 
 /*			System.out.println(args[0]);
 			out.write(args[0].getBytes());
 			out.close();*/
