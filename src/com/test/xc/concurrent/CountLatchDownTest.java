@@ -10,8 +10,6 @@ import java.util.concurrent.CountDownLatch;
  */
 public class CountLatchDownTest {
 	
-	
-	
 	public static void main(String[] args) {
 	
 		CountDownLatch start = new CountDownLatch(1);
