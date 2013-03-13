@@ -1,4 +1,4 @@
-package com.j2ee.timer;
+package com.test.xc.timer;
 
 import java.util.Calendar;
 import java.util.Date;
