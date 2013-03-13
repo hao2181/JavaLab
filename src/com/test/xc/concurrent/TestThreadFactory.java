@@ -1,4 +1,4 @@
-package com.test.concurrent;
+package com.test.xc.concurrent;
 
 import java.util.concurrent.ThreadFactory;
 
