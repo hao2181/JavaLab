@@ -1,3 +1,5 @@
+import org.apache.commons.lang.StringUtils;
+
 
 public class MyCompactor implements Comparable<Object> {
 
@@ -11,7 +13,8 @@ public class MyCompactor implements Comparable<Object> {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
+		
+		System.out.println(StringUtils.trimToEmpty(null));
 	}
 
 }
