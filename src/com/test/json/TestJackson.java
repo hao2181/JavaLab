@@ -53,7 +53,7 @@ public class TestJackson {
 		obj[0] = new User(1,"arry1","zhongshan road1");
 		obj[1] = new User(2,"arry2","zhongshan road2");
 		obj[2] = new User(3,"arry3","zhongshan road3");
-		System.out.println(mapper.writeValueAsString(obj));
+		System.out.println(mapper.writeValueAsString(obj)+"=====");
 	}
 	
 	@Test //json 到对象
@@ -62,6 +62,5 @@ public class TestJackson {
 		User1 user = mapper.readValue(new File("c:/1.txt"), User1.class);
 		System.out.println(user.getName());
 	}
-
 	
 }
