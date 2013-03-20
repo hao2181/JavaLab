@@ -7,9 +7,13 @@ public class Client {
 	 * 因此多个if-else语句可以考虑使用策略模式
 	 */
 	public static void main(String[] args) {
+		
 		Strategy strategyA = new StrategyA();
+		
 		Context context = new Context(strategyA);
+		
 		double  price = context.calculate(100);
+		
 		System.out.println("客户报价："+price);
 	}
 
