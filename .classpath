@@ -99,15 +99,6 @@
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/mail.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/memcached-2.5.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/mime-util.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/mina-core-2.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/mina-example-2.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/mina-filter-compression-2.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/mina-integration-beans-2.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/mina-integration-jmx-2.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/mina-integration-ognl-2.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/mina-integration-xbean-2.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/mina-statemachine-2.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/mina-transport-apr-2.0.4.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/msv-core-2010.2.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/mysql-connector-java-5.1.13.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/neethi-3.0.1.jar"/>
@@ -179,5 +170,13 @@
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/xmltooling-1.3.1.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/xsdlib-2010.1.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse/yafw/lib/xwork-core-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jar/mina-core-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jar/mina-filter-compression-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jar/mina-integration-beans-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jar/mina-integration-jmx-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jar/mina-integration-ognl-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jar/mina-integration-xbean-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jar/mina-statemachine-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jar/mina-transport-apr-2.0.4.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
