@@ -1,4 +1,6 @@
 package com.design.template_method;
+
+
 /**
  *  登录控制的模板
  */
