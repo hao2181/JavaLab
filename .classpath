@@ -178,5 +178,7 @@
 	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jar/mina-integration-xbean-2.0.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jar/mina-statemachine-2.0.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jar/mina-transport-apr-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jRegistryKey-bin-1.4.5/jRegistryKey.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jRegistryKey-bin-1.4.5/jRegistryKey-test.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
