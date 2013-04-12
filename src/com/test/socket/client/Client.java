@@ -19,7 +19,7 @@ public class Client {
 	
 	public void chat(){		
 		try {
-			Socket socket  = new Socket("127.0.0.1", 5656);
+			Socket socket  = new Socket("192.168.3.6",1125);
 			
 			DataInputStream dis  = new DataInputStream(
 					socket.getInputStream());

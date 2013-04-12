@@ -20,7 +20,7 @@ import java.util.Iterator;
 public class HelloWorldClient {
 
 	static int SIZE = 10;
-	static InetSocketAddress ip = new InetSocketAddress("192.168.2.27", 8888);
+	static InetSocketAddress ip = new InetSocketAddress("192.168.3.6", 1125);
 	static CharsetEncoder encoder = Charset.forName("GB2312").newEncoder();
 
 	static class Message implements Runnable {

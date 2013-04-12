@@ -12,7 +12,7 @@ import java.nio.charset.Charset;
 
 public class TestClient {
 	public static void main(String[] args) {
-		new MiniClient("localhost", 9999);
+		new MiniClient("192.168.3.6", 1125);
 	}
 }
 class MiniClient {

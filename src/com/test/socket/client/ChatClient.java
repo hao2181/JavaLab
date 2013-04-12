@@ -14,8 +14,8 @@ import java.util.Scanner;
  */  
 // �ͻ�����  
 public class ChatClient {  
-    private String host = "localhost";// Ĭ�����ӵ�����  
-    private int port = 8189;// Ĭ�����ӵ��˿�8189  
+    private String host = "192.168.3.6";// Ĭ�����ӵ�����  
+    private int port = 1125;// Ĭ�����ӵ��˿�8189  
   
     public ChatClient() {  
   

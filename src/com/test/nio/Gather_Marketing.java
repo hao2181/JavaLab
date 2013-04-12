@@ -8,9 +8,7 @@ import java.util.List;
 import java.util.LinkedList;
 
 /**
- * Demonstrate gathering write using many buffers.
- * 
- * @author Ron Hitchens (ron@ronsoft.com)
+ * 聚集写入从多个Buffer
  */
 public class Gather_Marketing {
 	private static final String DEMOGRAPHIC = "blahblah.txt";
