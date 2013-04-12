@@ -1,12 +1,12 @@
 import java.util.Iterator;
-import ca.beq.util.win32.registry.*;
+
 /**
  * @author ZhangHao 
  * @date  2013-4-8
  */
 public class RegEditTest {
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 				//列出HKEY_CURRENT_USER的子键
 				RegistryKey current_user = new RegistryKey(RootKey.HKEY_CURRENT_USER);
 				if(current_user.hasSubkeys()){
@@ -33,5 +33,5 @@ public class RegEditTest {
 				newKey.create();//创建新的键HKEY_CURRENT_USER/Environment/NewKey
 				RegistryValue value = new RegistryValue("My Paht",ValueType.REG_SZ,"hahah\\lalal");
 				newKey.setValue(value);//在新创建的键里写入键值,在注册表中按F5刷新一下能看到变化了吧
-			}
+			}*/
 	}
