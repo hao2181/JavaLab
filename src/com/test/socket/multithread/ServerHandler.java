@@ -38,9 +38,7 @@ public class ServerHandler implements Runnable {
 	public void run() {
 		try {
 			System.out.println(socket.getInetAddress()+"="+socket.getPort()+"连接到服务器！");
-			InputStream in = socket.getInputStream();
-			reader = new BufferedReader(new InputStreamReader(in));
-			//writer = new PrintWriter(socket.getOutputStream());
+			reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 			while((msg=reader.readLine())!=null){
 				System.out.println(msg);
 				//writer.println("服务器"+new Date()+"收到消息："+msg);
@@ -49,9 +47,8 @@ public class ServerHandler implements Runnable {
 					writer.println(socket.getInetAddress()+"="+socket.getPort()+"说:"+msg);
 					writer.flush();
 				}
-				
 				//writer.flush();
-                if (msg.equals("bye")) {  
+                if (msg.equals("bye")) {
                     break;  
                 } 
 			}
