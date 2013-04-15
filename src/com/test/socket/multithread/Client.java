@@ -18,6 +18,7 @@ public class Client {
 				socket = new Socket("192.168.3.6", 1255);
 				in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 				out = new PrintWriter(socket.getOutputStream(), true);
+				out.println("wangwu");
 				new Thread(new Runnable(){
 					public void run() {
 						try {
@@ -29,12 +30,10 @@ public class Client {
 						}
 					}
 				}).start();
-				
 				BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		        while (true) {  
 		            String msg = reader.readLine();  
 		            out.println(msg);  
-		            out.flush();  
 		            if (msg.equals("bye")) {  
 		                break;  
 		            }  

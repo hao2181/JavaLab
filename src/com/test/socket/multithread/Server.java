@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Vector;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -21,6 +22,7 @@ public class Server {
 	private static int PORT = 1255;
 	private ServerSocket server = null;
 	private Vector<Socket> vector = new Vector<Socket>();
+	private ConcurrentHashMap<String, Socket> map = new ConcurrentHashMap<String, Socket>();
 	private int POOL_SIZE = 10;
 	private ExecutorService threadPools = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors()*POOL_SIZE);
 	public Server() {
@@ -37,7 +39,7 @@ public class Server {
 			try {
 				Socket socket = server.accept();
 				vector.add(socket);
-				threadPools.execute(new ServerHandler(socket, vector));
+				threadPools.execute(new ServerHandler(socket, vector,map));
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
