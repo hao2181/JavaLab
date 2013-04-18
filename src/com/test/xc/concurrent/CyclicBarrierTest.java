@@ -22,11 +22,7 @@ public class CyclicBarrierTest {
 		new Thread(new ProcessorCB(cb)).start();
 		Thread.sleep(5000);
 		new Thread(new ProcessorCB(cb)).start();
-		
-
 	}
-	
-
 }
 
 class ProcessorCB implements Runnable{
@@ -46,5 +42,4 @@ class ProcessorCB implements Runnable{
 			e.printStackTrace();
 		}
 	}
-	
 }

@@ -6,9 +6,6 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class LockTest {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		new LockTest().init();
 	}
@@ -22,10 +19,9 @@ public class LockTest {
 					try {
 						Thread.sleep(10);
 					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-					outputer.output("zhangxiaoxiang");
+					outputer.output("i am good man from chinese");
 				}
 				
 			}
@@ -38,10 +34,9 @@ public class LockTest {
 					try {
 						Thread.sleep(10);
 					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-					outputer.output("lihuoming");
+					outputer.output("fuck japan forever");
 				}
 				
 			}
