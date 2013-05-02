@@ -1,5 +1,5 @@
 public class Tagss {
-	private static Integer[] base ;
+	private static  Integer[] base ;
 
 	public static void printAll(Integer len) {
 		base = new Integer[len];
