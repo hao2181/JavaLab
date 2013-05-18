@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.io.PushbackInputStream;  
  
 /**  
- * »ØÍËÁ÷²Ù×÷  
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  
  * */ 
 public class PushBackInputStreamDemo{  
     public static void main(String[] args) throws IOException{  
@@ -26,7 +26,7 @@ public class PushBackInputStreamDemo{
             if(temp == ','){  
                 push.unread(temp);  
                 temp = push.read();  
-                System.out.print("(»ØÍË" + (char) temp + ") ");  
+                System.out.print("(ï¿½ï¿½ï¿½ï¿½" + (char) temp + ") ");  
             }else{  
                 System.out.print((char) temp);  
             }  

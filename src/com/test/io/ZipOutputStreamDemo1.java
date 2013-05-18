@@ -16,11 +16,11 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;  
  
 /**  
- * Ò»´ÎÐÔÑ¹Ëõ¶à¸öÎÄ¼þ  
+ * Ò»ï¿½ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½  
  * */ 
 public class ZipOutputStreamDemo1{  
     public static void main(String[] args) throws IOException{  
-        // Òª±»Ñ¹ËõµÄÎÄ¼þ¼Ð  
+        // Òªï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½  
         File file = new File("d:" + File.separator + "temp");  
         File zipFile = new File("d:" + File.separator + "zipFile.zip");  
         InputStream input = null;  

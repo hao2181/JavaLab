@@ -14,11 +14,11 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;  
  
 /**  
- * ÊµÏÖ¾ßÓÐÐòÁÐ»¯ÄÜÁ¦µÄÀà  
+ * Êµï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  
  * */ 
 
 /**  
- * Ê¾·¶ObjectOutputStream  
+ * Ê¾ï¿½ï¿½ObjectOutputStream  
  * */ 
 public class ObjectOutputStreamDemo{  
     public static void main(String[] args) throws IOException{  

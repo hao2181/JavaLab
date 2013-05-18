@@ -1,4 +1,7 @@
 package com.test.xc.concurrent.example;
+
+import java.util.concurrent.Executor;
+
 public class User implements Cloneable{
 	private String name;
 	private int age;
@@ -11,6 +14,7 @@ public class User implements Cloneable{
 		if(this == obj) {
 			return true;
 		}
+		
 		if(!(obj instanceof User)) {
 			return false;	
 		}

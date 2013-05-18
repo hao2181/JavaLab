@@ -8,7 +8,7 @@ import java.net.SocketException;
 public class Reciever {
 	public static void main(String[] args) {
 		try {
-			DatagramSocket ds = new DatagramSocket(7777);
+			DatagramSocket ds = new DatagramSocket(3456);
 			byte[] data = new byte[1024];
 			DatagramPacket dp = new DatagramPacket(data, data.length);
 			

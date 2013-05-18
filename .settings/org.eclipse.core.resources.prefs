@@ -1,9 +1,11 @@
-#Fri Apr 12 09:41:28 CST 2013
+#Sat May 18 14:07:34 CST 2013
 eclipse.preferences.version=1
 encoding//src/com/design=UTF-8
 encoding//src/com/test/io=UTF-8
 encoding//src/com/test/io/DataInputStreamDemo.java=UTF-8
 encoding//src/com/test/socket/client/ChatClient.java=UTF-8
 encoding//src/com/test/socket/server/ChatServer.java=GBK
+encoding//src/com/test/socket/udp/Reciever.java=UTF-8
+encoding//src/text.xml=GBK
 encoding/<project>=UTF-8
 encoding/WebRoot=UTF-8

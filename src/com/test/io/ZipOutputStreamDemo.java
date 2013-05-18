@@ -22,7 +22,7 @@ package com.test.io;
 	        ZipOutputStream zipOut = new ZipOutputStream(new FileOutputStream(  
 	                zipFile));  
 	        zipOut.putNextEntry(new ZipEntry(file.getName()));  
-	        // ÉèÖÃ×¢ÊÍ  
+	        // ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½  
 	        zipOut.setComment("hello");  
 	        int temp = 0;  
 	        while((temp = input.read()) != -1){  

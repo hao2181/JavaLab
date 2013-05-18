@@ -12,7 +12,7 @@ import java.io.OutputStream;
 import java.io.SequenceInputStream;  
  
 /**  
- * 将两个文本文件合并为另外一个文本文件  
+ * 锟斤拷锟斤拷锟斤拷锟侥憋拷锟侥硷拷锟较诧拷为锟斤拷锟斤拷一锟斤拷锟侥憋拷锟侥硷拷  
  * */ 
 public class SequenceInputStreamDemo{  
     public static void main(String[] args) throws IOException{  
@@ -22,7 +22,7 @@ public class SequenceInputStreamDemo{
         InputStream input1 = new FileInputStream(file1);  
         InputStream input2 = new FileInputStream(file2);  
         OutputStream output = new FileOutputStream(file3);  
-        // 合并流  
+        // 锟较诧拷锟斤拷  
         SequenceInputStream sis = new SequenceInputStream(input1, input2);  
         int temp = 0;  
         while((temp = sis.read()) != -1){  

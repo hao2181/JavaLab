@@ -12,7 +12,7 @@ import java.io.FileInputStream;
 import java.io.ObjectInputStream;  
  
 /**  
- * ObjectInputStreamÊ¾·¶  
+ * ObjectInputStreamÊ¾ï¿½ï¿½  
  * */ 
 public class ObjectInputStreamDemo{  
     public static void main(String[] args) throws Exception{  

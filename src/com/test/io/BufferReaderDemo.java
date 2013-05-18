@@ -22,10 +22,10 @@ public class BufferReaderDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		//OutputStreramWriter½«Êä³öµÄ×Ö·ûÁ÷×ª»¯Îª×Ö½ÚÁ÷
-		//InputStreamReader½«ÊäÈëµÄ×Ö½ÚÁ÷×ª»»Îª×Ö·ûÁ÷
+		//OutputStreramWriterï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½×ªï¿½ï¿½Îªï¿½Ö½ï¿½ï¿½ï¿½
+		//InputStreamReaderï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½×ªï¿½ï¿½Îªï¿½Ö·ï¿½ï¿½ï¿½
 		try {
-			System.out.println("ÄúÊäÈëµÄÊÇ£º"+br.readLine());
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½"+br.readLine());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

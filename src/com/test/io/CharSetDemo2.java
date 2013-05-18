@@ -13,13 +13,13 @@ import java.io.IOException;
 import java.io.OutputStream;  
  
 /**  
- * ÂÒÂëµÄ²úÉú  
+ * ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½  
  * */ 
 public class CharSetDemo2{  
     public static void main(String[] args) throws IOException{  
         File file = new File("d:" + File.separator + "hello.txt");  
         OutputStream out = new FileOutputStream(file);  
-        byte[] bytes = "ÄãºÃ".getBytes("ISO8859-1");  //ÕâÀï±àÂë²»Ò»ÖÂ²úÉúÊä³öÂÒÂë
+        byte[] bytes = "ï¿½ï¿½ï¿½".getBytes("ISO8859-1");  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë²»Ò»ï¿½Â²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         out.write(bytes);  
         out.close();  
     }  

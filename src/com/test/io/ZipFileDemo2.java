@@ -16,7 +16,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;  
  
 /**  
- * ½âÑ¹ËõÎÄ¼þ£¨Ñ¹ËõÎÄ¼þÖÐÖ»ÓÐÒ»¸öÎÄ¼þµÄÇé¿ö£©  
+ * ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Ö»ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  
  * */ 
 public class ZipFileDemo2{  
     public static void main(String[] args) throws IOException{  

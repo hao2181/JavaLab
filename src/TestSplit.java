@@ -6,7 +6,6 @@ public class TestSplit {
 	public static void main(String[] args) {
 		
 		String s = "12312312@h8uhiu2huih@131jk23n1jn23jn1k@bnj2bn@3nj1k2n3j2n1k@bn1j23b1j23@";
-		
 		String str[] = s.split("@");
 		System.out.println(str.length);
 		for(int i=0 ; i<str.length ;i++){
@@ -18,5 +17,9 @@ public class TestSplit {
 			System.out.println(s1[i].toString());
 		}
 		System.out.println(s1.length);
+		
+		//String str = "3,4,5,";
+		//System.out.println(str.split(",").length);
+		
 	}
 }
