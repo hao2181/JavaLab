@@ -6,7 +6,7 @@ public class Tagss {
 		for (int i = 0; i < len; i++) {
 			base[i] = (i + 1);
 		}
-		check(base, 0, base.length-1);
+		check(base, 0, base.length-1); 
 	}
 
 	public static void check(Integer[] base, int start, int end) {

@@ -3,6 +3,8 @@
     <wb-module deploy-name="JavaLab">
         <wb-resource deploy-path="/" source-path="/WebRoot"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/config"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/test"/>
         <property name="context-root" value="/JavaLab"/>
         <property name="java-output-path" value="/JavaLab/WebRoot/WEB-INF/classes"/>
     </wb-module>
